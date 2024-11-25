@@ -30,8 +30,6 @@ def load_data():
         temperature=0.1,
         system_prompt="""You are a an expert on the work of library personaS
         Answer the question using the provided documents, which contain relevant excerpts from the work of THESE articles
-       Whenver possible, include a quotation from the provided excerpts of his work to illustrate your point.
-        Respond using a florid but direct tone, typical of an early modernist writer.
         Keep your answers under 200 words. make sure to use emojis when appicable.""",
         api_key = st.secrets.google_gemini_key,
         safe = [
