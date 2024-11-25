@@ -27,7 +27,7 @@ def load_data():
     
     Settings.llm = Gemini(
         model="models/gemini-1.5-flash",
-        temperature=0.2,
+        temperature=0.1,
         system_prompt="""You are a an expert on the work of library personaS
         Answer the question using the provided documents, which contain relevant excerpts from the work of THESE articles
        Whenver possible, include a quotation from the provided excerpts of his work to illustrate your point.
